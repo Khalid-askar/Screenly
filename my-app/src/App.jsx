@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Component/Layout";
 import Movies from "./Component/Movies";
-import TV from "./Component/Tv";
+import Tv from "./Component/Tv";
 import Home from "./Component/Home";
 import { Toaster } from "react-hot-toast";
 import DetailsMovies from "./Component/Details/DetailsMovies";
@@ -32,7 +32,7 @@ let routers=createBrowserRouter([
   {path:"", element:<Layout logindata={logindata} setLoginData={setLoginData}/>, children:[
     {path:"home", element:<Home/>},
     {path:"movies", element:<Movies/>},
-    {path:"tv", element:<TV/>},
+    {path:"tv", element:<Tv/>},
     {path:"detailsmovies/:id",element:<DetailsMovies/>},
     {path:"detailstv/:id",element:<DetailsTv/>},
     {path:"register", element:<Register/>},
