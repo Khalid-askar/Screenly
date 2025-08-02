@@ -1,9 +1,9 @@
 import React from 'react'
 import Movies from './Movies'
-import TV from './TV'
+import Tv from './Tv'
 export default function Home() {
   return <>
  <Movies/>
-  <TV/>
+  <Tv/>
   </>
 }
