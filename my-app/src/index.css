@@ -1,0 +1,39 @@
+:root{
+    --pink-color: #ff7ca4;
+}
+
+.bg-pink{
+    background-color: var(--pink-color) !important;
+}
+.pink-text{
+    color: var(--pink-color) !important;
+}
+
+.pinkborder{
+    border: solid 3px rgba(255, 124, 164, 1);
+}
+
+.imglayer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0%;
+    left:3px;
+    right: 3px;
+    bottom: 0px;
+    opacity: 0;
+
+}
+.imglayer:hover{
+    opacity: 1;
+}
+.imginfo{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 50%;
+}
+.imginfo h5{
+font-size: 30px;
+font-weight: 700;
+}
